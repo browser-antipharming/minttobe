@@ -1,0 +1,168 @@
+
+
+#mtb {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: "Hammersmith One", sans-serif;
+    color: darkseagreen;
+    background-image: url(naturehero.webp);
+    border-radius: 50px;
+    margin-bottom: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+
+#welcome, #h5, #about, #quiz {
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 28px;
+}
+
+#h5 {
+    font-size: 20px;
+}
+
+#about, #quiz {
+    font-size: 16px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.button {
+    margin-left: 650px;
+    color:white;
+    font-size: 18px;
+    background-color: darkseagreen;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: seagreen;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 5px 5px 20px 5px seagreen;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button2 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: darkseagreen;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button2:hover {
+    background-color: seagreen;
+  }
+
+  #head {
+      font-family: "Hammersmith One", sans-serif;
+  }
+
+  footer {
+      margin-top: 100px;
+      background-image: url(circlebg.jpg);
+      padding-bottom: 20px;
+      font-family: "Manjari", sans-serif;
+      padding-top: 25px;
+  }
+
+  .sm {
+      width: 60px;
+      border: solid;
+      border-color: white;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+
+#quiz2 {
+      font-size: 30px;
+      color: white;
+      background-color: darkseagreen;
+      border-radius: 20px;
+      cursor: pointer;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 500px;
+      margin-top: 50px;
+      
+  }
+
+  
+  #quiz2 {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+  #quiz2 {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   #quiz2:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
